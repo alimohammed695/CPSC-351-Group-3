@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  // Make sure you install the clangd extension in vscode
+  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+}
