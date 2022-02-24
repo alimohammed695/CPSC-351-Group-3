@@ -5,7 +5,9 @@
 Checks: >
   -*,
   bugprone-*,
-  readability-*
+  readability-*,
+  -modernize-use-trailing-return-type,
+  -modernize-avoid-c-arrays
 
 # See :https://clang.llvm.org/extra/clang-tidy/checks/readability-identifier-naming.html
 #

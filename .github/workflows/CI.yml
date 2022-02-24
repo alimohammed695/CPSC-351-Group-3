@@ -34,7 +34,9 @@ jobs:
 
       - name: Compile
         id: compile
-        run: g++ ./assignment-1/test.cpp
+        run: |
+          g++ --version
+          g++ ./assignment-1/test.cpp
         continue-on-error: true
 
       - name: Check for errors
