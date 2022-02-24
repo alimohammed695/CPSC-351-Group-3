@@ -5,7 +5,7 @@ void print_hex(string a) {
     const double pi = 3.14569 * 2;
     cout << "TEST" << endl;
     cout << a << endl;
-
+}
 
 class Testa {
    public:
