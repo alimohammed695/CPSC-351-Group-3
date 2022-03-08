@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  // Make sure to install the clangd extension in vscode
+  "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd",
+  // clangd has better intellisense compared to Microsoft's cpptools, but it
+  // lacks debugging capabilities. Install and use Microsoft's cpptools for debugging
+  // and disable it's intellisense to prevent conflicts with clangd
+  "C_Cpp.intelliSenseEngine": "Disabled"
+}
