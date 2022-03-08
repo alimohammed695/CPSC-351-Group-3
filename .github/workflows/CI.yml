@@ -35,8 +35,9 @@ jobs:
       - name: Compile
         id: compile
         run: |
-          g++ --version
-          g++ ./assignment-1/*.cpp
+          gcc --version
+          gcc ./assignment-1/time_shm.c -otime -lrt
+          gcc ./assignment-1/time_pipe.c -otime -lrt
         continue-on-error: true
 
       - name: Check for errors
